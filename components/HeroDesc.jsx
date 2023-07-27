@@ -13,7 +13,7 @@ const HeroDesc = () => {
           h-[70vh] flex items-start justify-center leading-normal flex-col px-5' >
         <h1 className='text-body text-3xl font-bold py-5'>WHY FITT?</h1>
         <p  className='font-light  text-sm w-[70%]   xxl:w-[70%]  xl:w-[70%]  lg:w-[80%]   md:w-[90%]  mdl:w-[95%] sm:w-[95%]  xs:w-[95%]  ' >
-        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+        I'm a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. Im a great place for you to tell a story and let your users know a little more about you.
 
 ​<br />
 <br />
