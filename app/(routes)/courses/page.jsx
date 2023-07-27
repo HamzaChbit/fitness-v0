@@ -9,7 +9,7 @@ const PageCourses = () => {
 <div className='w-[80%] mx-auto my-5 py-8 bg-course-four flex flex-col justify-center items-center h-[80vh]   bg-no-repeat bg-cover  '> 
 <div className='flex flex-col justify-end items-center py-5 ' >
     <h1 className='text-white font-bold text-4xl'>Courses</h1>
-    <p className='text-xl mt-12 font-medium text-white w-[70%]' >I'm a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+    <p className='text-xl mt-12 font-medium text-white w-[70%]' >Im a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
 </div>
 
   

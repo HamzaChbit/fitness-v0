@@ -7,7 +7,7 @@ const Team = () => {
         <div className='flex flex-col items-center justify-center mt-8' >
             <div className='flex flex-col justify-center items-center' >
                 <h1 className='text-body font-bold text-4xl py-5' >THE TEAM</h1>
-                <p className='w-[80%]  text-md py-8 ' >I'm a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.</p>
+                <p className='w-[80%]  text-md py-8 ' >Im a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.</p>
             </div>
             {/* team backround */}
             <div className='flex flex-wrap min-w-full gap-1 ' >
