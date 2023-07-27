@@ -20,7 +20,7 @@ const Courses = () => {
           <div className='w-full  ml-0.5 bg-white flex flex-col justify-center items-center   ' >
        <h1 className='text-body px-5 py-5 font-bold text-2xl' >MASTER TRAINER COURSE</h1>
        <p  className='text-md font-light px-10' > Im a paragraph. Click here to add your own text and edit me. Its easy</p>
-       <Link href='/' >
+       <Link href='/courses' >
             <button className='text-body border-2 border-body my-5 px-4 py-1 hover:bg-body hover:text-white duration-700 mt-12 mb-22' >
            Enrol Now
         </button>
@@ -36,7 +36,7 @@ const Courses = () => {
         <div className='w-full  ml-0.5 bg-white flex flex-col justify-center items-center' >
        <h1 className='text-body px-5 py-5 font-bold text-2xl' >MASTER TRAINER COURSE</h1>
        <p  className='text-md font-light px-10' > Im a paragraph. Click here to add your own text and edit me. Its easy</p>
-       <Link href='/' >
+       <Link href='/courses' >
             <button className='text-body border-2 border-body my-5 px-4 py-1 hover:bg-body hover:text-white duration-700 mt-12 mb-22' >
            Enrol Now
         </button>
@@ -51,7 +51,7 @@ const Courses = () => {
           <div className='w-full   ml-0.5 bg-white flex flex-col justify-center items-center' >
        <h1 className='text-body px-5 py-5 font-bold text-2xl' >MASTER TRAINER COURSE</h1>
        <p  className='text-md font-light px-10' > Im a paragraph. Click here to add your own text and edit me. Its easy</p>
-       <Link href='/' >
+       <Link href='/courses' >
             <button className='text-body border-2 border-body my-5 px-4 py-1 hover:bg-body hover:text-white duration-700 mt-12 mb-22' >
            Enrol Now
         </button>
