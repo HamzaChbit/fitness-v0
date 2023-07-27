@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 const Hero = () => {
   return (
     <div className='mx-auto max-w-7xl h-[88vh] flex ' >
@@ -9,9 +10,12 @@ const Hero = () => {
 
        className='text-6xl leading-normal font-bold my-2 text-white' >
          START YOUR <br /> FITNESS  <br />CAREER <br /> TODAY.</h1>
+                  <Link href='/about
+' >
 <button className='px-4 py-2 mt-7 bg-button text-white rounded-xl  mr-60' >
   Lean More
 </button>
+                     </Link>
         </div>
 
         <div className='w-[50%] bg-hero-pattern   bg-cover  hidden  xxl:block xl:block lg:block  md:block mdl:block sm:hidden  xs:hidden  '  >
