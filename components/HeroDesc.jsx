@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const HeroDesc = () => {
   return (
     <div className=' h-auto py-20 bg-background mx-auto mt-20 flex justify-center items-center ' >
@@ -23,9 +23,12 @@ This is a great space to write long text about your company and your services. Y
 
 
         </p>
+                    <Link href='/contact
+' >
         <button className='text-body border-2 border-body my-5 px-4 py-1 hover:bg-body hover:text-white duration-700' >
             Apply Now
-        </button>
+        </button> 
+                          </Link>
       </div>
     </div>
     </div>
