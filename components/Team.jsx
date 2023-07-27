@@ -37,7 +37,8 @@ const Team = () => {
                 </div>
             </div>
 
-            <Link href='/' >
+            <Link href='/about
+' >
             <button className='text-body border-2 border-body my-5 px-4 py-1 hover:bg-body hover:text-white duration-700 mt-12 mb-22' >
            View All
         </button>
