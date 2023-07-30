@@ -95,8 +95,8 @@ const NavBar = () => {
 1-800-000-000</p>
 <FaFacebookF   className=' hidden  xxl:block xl:block lg:block  md:block mdl:block sm:hidden  xs:hidden ' />
 <AiOutlineTwitter className=' hidden  xxl:block xl:block lg:block  md:block mdl:block sm:hidden  xs:hidden ' />
-<AiOutlineUser className='bg-red-500 rounded-full text-white     hidden  xxl:block xl:block lg:block  md:block mdl:block sm:hidden  xs:hidden  ' />
-<p   className=' hidden  xxl:block xl:block lg:block  md:block mdl:block sm:hidden  xs:hidden ' >Login</p>
+{/* <AiOutlineUser className='bg-red-500 rounded-full text-white     hidden  xxl:block xl:block lg:block  md:block mdl:block sm:hidden  xs:hidden  ' />
+<p   className=' hidden  xxl:block xl:block lg:block  md:block mdl:block sm:hidden  xs:hidden ' >Login</p> */}
 
 
             </div>
