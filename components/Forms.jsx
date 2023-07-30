@@ -24,7 +24,7 @@ const Forms = () => {
 
 
   return (
-    <div  className='w-full flex flex-col items-center justify-center h-screen px-5  mt-5  bg-background  '  >
+    <div  className='w-full flex flex-col items-center justify-center h-auto px-5  mt-5  bg-background  '  >
     <div  className='max-w-7xl mx-auto' >
     <div className='flex flex-col justify-center items-center mt-5' >
         <h1 className='text-body font-bold text-4xl py-7' >YOUR FITNESS CAREER STARTS HERE</h1>
@@ -52,6 +52,8 @@ const Forms = () => {
      
    
     </form>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.5382430824934!2d-9.520827824735596!3d30.392467374750257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3c8414ee8d60d%3A0x68f0c785a860566e!2sCity%20Club%20-%20Tassila!5e0!3m2!1sen!2sma!4v1690715107763!5m2!1sen!2sma" 
+    style={{width:"600", height:"450",marginTop:'4px', style:"border:0;", allowfullscreen:"", loading:"lazy", referrerpolicy:"no-referrer-when-downgrade"}}></iframe>
       </div>
 
 
