@@ -3,22 +3,37 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
+import { useForm } from 'react-hook-form';
 const Forms = () => {
+
+  const {register,handleSubmit,formState:{errors}}= useForm()
+
     const form = useRef();
 
     const sendEmail = (e) => {
-      e.preventDefault();
+      
   
       emailjs.sendForm('service_1l8wln6', 'template_tugej4a', form.current, 'EGW9Iy57TjlDfnomu')
         .then((result) => {
             console.log(result.text);
             toast.success("Message sent!")
+            form.current.reset()
 
         }, (error) => {
             console.log(error.text);
         });
       
     };
+    const onSubmit = (data,event) =>{
+      event.preventDefault()
+      if(data.email === ""){
+        toast.error('Please enter your email address')
+        return
+      }
+      sendEmail(data)
+
+
+    }
   
 
 
@@ -35,11 +50,13 @@ const Forms = () => {
       </div>
       {/* form */}
       <div className='flex flex-col ' >
-      <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-5  min-w-[50%]      xxl:min-w-[50%]  xl:min-w-[50%]  lg:min-w-[70%]   md:min-w-[80%]  mdl:min-w-[80%] sm:min-w-[82%]  xs:min-w-[92%] '   >
+      <form ref={form} onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-5  min-w-[50%]      xxl:min-w-[50%]  xl:min-w-[50%]  lg:min-w-[70%]   md:min-w-[80%]  mdl:min-w-[80%] sm:min-w-[82%]  xs:min-w-[92%] '   >
      
       <input type="text" name="user_name" placeholder='Name' className='py-2 px-2 border-b-2 border-black bg-background'/>
 
-      <input type="email" name="user_email" placeholder='Email' className='py-2 px-2 border-b-2 border-black bg-background'/>
+      <input   type="email" name="user_email" 
+       {...register('email',{required:true})} 
+      placeholder='Email' className='py-2 px-2 border-b-2 border-black bg-background'/>
       
     
       <input name="subject" placeholder='Subject' className='py-2 px-2 border-b-2 border-black bg-background'/>
