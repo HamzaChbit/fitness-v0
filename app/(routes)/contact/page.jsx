@@ -83,10 +83,12 @@ const PageContact = () => {
       <div className='flex flex-col ' >
       <form    ref={form} onSubmit={ handleSubmit(onSubmit)} className='flex flex-col gap-5  min-w-[50%]      xxl:min-w-[50%]  xl:min-w-[50%]  lg:min-w-[70%]   md:min-w-[80%]  mdl:min-w-[80%] sm:min-w-[82%]  xs:min-w-[92%] '   >
      
-      <input    type="text" name="user_name" placeholder='Name' className='py-2 px-2 border-b-2 border-black bg-background'/>
+      <input    type="text" name="user_name"      
+        {...register('text', { required: true })}
+           placeholder='Name' className='py-2 px-2 border-b-2 border-black bg-background'/>
 
       <input   type="email" name="user_email"
-      {...register('email', { required: true })}
+      
       placeholder='Email' className='py-2 px-2 border-b-2 border-black bg-background'/>
        
     
