@@ -22,10 +22,10 @@ const NavBar = () => {
         <div className='flex flex-row p-4  justify-between items-center' >
 
        
-        <div  className='flex flex-row p-4 ' >
+        <Link href='/'  className='flex flex-row p-4 ' >
             
 
-            <div>
+            <div   >
                     <Image width={30} className='py-2' height={30} alt='logo' src="/image/c0c004_541330dfba3641328a9c416c91c59187_mv2.png" />      
             </div>
             <div className='px-3'>
@@ -33,7 +33,7 @@ const NavBar = () => {
                 <p className='text-md font-light' >Fitness Academy</p>
             </div>
             
-        </div>
+        </Link>
 
 
         <div     className='w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-white cursor-pointer overflow-hidden group' onClick={()=>setShowMenu(true)} >
@@ -63,8 +63,7 @@ const NavBar = () => {
                     <FaFacebookF  size={25}  />
 <AiOutlineTwitter  size={25}  />
         </div>
-        <p  >
-1-800-000-000</p>
+        <p  >+212 694977110</p>
 
                   </div>
                

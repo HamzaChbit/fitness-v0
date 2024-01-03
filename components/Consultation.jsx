@@ -6,7 +6,7 @@ const Consultation = () => {
       <div className='text-white flex justify-center flex-col items-center ' >
         <h1  className='font-bold text-4xl        xxl:text-4xl xl:text-4xl lg:text-2xl   md:text-2xl mdl:text-xl sm:text-xl  xs:text-xl ' >
 Call Today for a Free Consultation</h1>
-<p  className='font-medium text-xl mt-4  ' >1-800-000-0000</p>
+<p  className='font-medium text-xl mt-4  ' >+212-694977110</p>
       </div>
     </div>
   )
