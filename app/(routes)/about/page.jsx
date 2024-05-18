@@ -4,7 +4,7 @@ import React from 'react'
 const PageAbout = () => {
   return (
     <>
-    <div className='bg-background w-full mx-auto h-screen   ' >
+    <div className='bg-background w-full mx-auto   ' >
 <div className='flex justify-center items-center'data-aos="fade-down" >
 
 <div className='w-[80%] mx-auto my-5 py-8 bg-course-six flex flex-col justify-center items-center h-[80vh]   bg-no-repeat bg-cover  ' > 
@@ -17,14 +17,18 @@ const PageAbout = () => {
 </div>
 </div>
 
-<div  className='mt-5   mx-auto h-auto  max-w-7xl flex  flex-wrap    gap-5 '>
-  <div className='flex  flex-col justify-center items-center px-5 ' data-aos="fade-up">
-    <div>
+<div  className='mt-5   mx-auto   max-w-7xl    h-full   gap-5 '>
+
+  <div  className='flex md:flex-row flex-col' >
+  <div className=' px-5 flex flex-col justify-center items-center  ' data-aos="fade-up">
+
        <Image  width={350 } height={400} src='/image/2e2a49_0beae01326244da9936b9bdec997e578_mv2_d_2598_2205_s_2.webp' alt='image'/>
-    </div>
-   
-    <h1 className='text-body text-2xl font-bold py-4'>Molly Thomas</h1>
+ 
+ 
+     <h1 className='text-body text-2xl font-bold py-4'>Molly Thomas</h1>
     <h3 className='text-black text-xl font-bold py-2'>Founder & Lead Instructor</h3>
+
+   
    
    
   </div>
@@ -35,19 +39,7 @@ const PageAbout = () => {
   
   
   </div>
-  <div className='flex flex-col justify-center items-center px-5 'data-aos="fade-up" >
-    <Image  width={350 } height={400} src='/image/7.webp'alt='image' />
-    <h1 className='text-body text-2xl font-bold py-4'>Ella Klein</h1>
-    <h3 className='text-black text-xl font-bold py-2'>Fitness Instructor</h3>
-  
-   
-  </div>
-  <div className='flex  flex-col justify-center items-center px-5 ' data-aos="fade-up">
-    <Image  width={350 } height={400} src='/image/8.webp' alt='image'/>
-    <h1  className='text-body text-2xl font-bold py-4'  >Eric Robbins</h1>
-    <h3 className='text-black text-xl font-bold py-2'>Sports Therapist</h3>
-   
-  </div>
+
   <div className='flex flex-col justify-center items-center px-5  ' data-aos="fade-up">
   
     <Image  width={350 } height={400} src='/image/2e2a49_dd367b07e33c4bf1b9777f2fe08cd512_mv2_d_2598_2205_s_2.webp'alt='image' />
@@ -57,6 +49,38 @@ const PageAbout = () => {
     <h3 className='text-black text-xl font-bold py-2'>Fitness Instructor</h3>
   
   </div>
+
+
+  </div>
+
+
+  <div  className='flex md:flex-row flex-col ' >
+
+<div className='flex  flex-col justify-center items-center px-5 ' data-aos="fade-up">
+    <Image  width={350 } height={400} src='/image/8.webp' alt='image'/>
+    <h1  className='text-body text-2xl font-bold py-4'  >Eric Robbins</h1>
+    <h3 className='text-black text-xl font-bold py-2'>Sports Therapist</h3>
+   
+  </div>
+
+  <div className='flex flex-col justify-center items-center px-5 'data-aos="fade-up" >
+    <Image  width={350 } height={400} src='/image/7.webp'alt='image' />
+    <h1 className='text-body text-2xl font-bold py-4'>Ella Klein</h1>
+    <h3 className='text-black text-xl font-bold py-2'>Fitness Instructor</h3>
+  
+   
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
   <div className='flex flex-col justify-center items-center  px-5' data-aos="fade-up">
   
@@ -69,6 +93,12 @@ Adam Pattontor</h1>
    
   </div>
 
+
+
+</div>
+
+
+ 
 
     
 </div>

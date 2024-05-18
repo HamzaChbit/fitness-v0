@@ -60,23 +60,23 @@ const NavBar = () => {
           <div className='flex flex-col items-center py-5'>
          
           
-            <ul className='font-medium text-2xl text-black flex flex-col gap-5 cursor-pointer justify-center items-center'>
-              <Link className='hover:text-body duration-300' href='/'>
+            <div className='font-medium text-2xl text-black flex flex-col gap-5 cursor-pointer justify-center items-center'>
+              <Link className='hover:text-body duration-300' href='/'   onClick={() => setShowMenu(false)} >
                 HOME
               </Link>
-              <Link className='hover:text-body duration-300' href='/courses'>
+              <Link className='hover:text-body duration-300' href='/courses' onClick={() => setShowMenu(false)}>
                 COURSES
               </Link>
-              <Link className='hover:text-body duration-300' href='/faq'>
+              <Link className='hover:text-body duration-300' href='/faq' onClick={() => setShowMenu(false)}>
                 FAQ
               </Link>
-              <Link className='hover:text-body duration-300' href='/about'>
+              <Link className='hover:text-body duration-300' href='/about' onClick={() => setShowMenu(false)}>
                 ABOUT
               </Link>
-              <Link className='hover:text-body duration-300' href='/contact'>
+              <Link className='hover:text-body duration-300' href='/contact' onClick={() => setShowMenu(false)}>
                 CONTACT
               </Link>
-            </ul>
+            </div>
             <div className='flex flex-row gap-4 cursor-pointer'>
               <FaFacebookF size={25} />
               <AiOutlineTwitter size={25} />
