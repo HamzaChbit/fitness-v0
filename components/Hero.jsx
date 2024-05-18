@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 import Link from 'next/link'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import ScrollToTop from "react-scroll-to-top";
 
 
 const Hero = () => {
@@ -35,7 +35,7 @@ const Hero = () => {
      data-aos-duration="500" >
 
         </div>
-
+        <ScrollToTop smooth className='flex justify-center items-center 'color='red'/>
 
     </div>
   )
