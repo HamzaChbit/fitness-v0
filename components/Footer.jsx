@@ -4,7 +4,7 @@ import { AiOutlineTwitter} from 'react-icons/ai';
 const Footer = () => {
   return (
     <div  className='
-    w-full mx-auto flex justify-center items-center flex-col  ' >
+    w-full mx-auto flex justify-center items-center flex-col  ' data-aos="fade-up">
         <div className='flex flex-row gap-5 py-5 cursor-pointer' >
         <FaFacebookF size={25} />
 <AiOutlineTwitter  size={25}/>

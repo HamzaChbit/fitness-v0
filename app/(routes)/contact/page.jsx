@@ -54,7 +54,7 @@ const PageContact = () => {
   return (
     
         <div className='bg-background w-full  h-[100%]  mx-auto  py-10  ' >
-<div className='flex justify-center items-center' >
+<div className='flex justify-center items-center'  data-aos="fade-down">
 
 <div className='max-w-7xl mx-auto my-5 py-8 bg-course-seven flex flex-col justify-center items-center h-[80vh]   bg-no-repeat bg-cover  '> 
 <div className='flex flex-col justify-end items-center py-5 ' >
@@ -70,7 +70,7 @@ const PageContact = () => {
   
  
     <div className='max-w-7xl bg-white mx-auto  ' >
-    <div  className='flex flex-col items-center justify-center  px-5      '  >
+    <div  className='flex flex-col items-center justify-center  px-5      '   data-aos="fade-up">
     <div  className='max-w-7xl mx-auto' >
     <div className='flex flex-col justify-center items-center mt-5' >
         <h1 className='text-body font-bold  text-2xl  md:text-4xl py-7' >YOUR FITNESS CAREER STARTS HERE</h1>
