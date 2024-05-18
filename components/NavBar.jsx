@@ -19,7 +19,7 @@ const NavBar = () => {
 
 
   return (
-    <div  className='h-120 mx-auto max-w-7xl'data-aos="fade-down" >
+    <div  className='md:h-120 h-full mx-auto max-w-7xl ' >
 
         {/* top */}
         <div className='flex flex-row p-4  justify-between items-center' >
@@ -48,35 +48,46 @@ const NavBar = () => {
 
  </div>
  {showMenu && (
-    <div
-    className=' fixed  mdl:hidden  w-[100%] top-0 left-0   h-screen  bg-white flex flex-col items-center'
-     onClick={handlClick}  >
+  <div className='fixed inset-0 z-50 bg-gray-800 opacity-95 '>
+    <div className='w-full h-full flex items-center justify-center'>
+      <div className='w-full max-w-md bg-white rounded-lg shadow-lg'>
+        <div className='flex flex-col items-center'>
+          <MdOutlineClose
+            size={35}
+            className='text-3xl text-white absolute top-2 right-4 cursor-pointer hover:text-body duration-300'
+            onClick={() => setShowMenu(false)}
+          />
+          <div className='flex flex-col items-center py-5'>
+         
           
-                  <MdOutlineClose  size={30}  className='text-3xl text-black right-4 top-2 absolute cursor-pointer hover:text-body  duration-300'  onClick={()=>setShowMenu(false)} />
-                  <div  className='flex justify-between  flex-col items-center py-5   ' >
-        
-        <ul  className='font-medium flex text-2xl text-black flex-col gap-5 py-4 cursor-pointer  justify-center items-center'  >
-            <Link  className='hover:text-body duration-300'  href='/'>HOME</Link>
-            <Link  className='hover:text-body  duration-300'  href='/courses' >COURSES</Link>
-            <Link className='hover:text-body   duration-300'  href='/faq' >FAQ</Link>
-            <Link className='hover:text-body   duration-300' href='/about' >ABOUT</Link>
-            <Link className='hover:text-body   duration-300'  href='/contact' >CONTACT</Link>
-        </ul>
-        <div className='flex flex-row py-5 gap-4  cursor-pointer' >
-                    <FaFacebookF  size={25}  />
-<AiOutlineTwitter  size={25}  />
+            <ul className='font-medium text-2xl text-black flex flex-col gap-5 cursor-pointer justify-center items-center'>
+              <Link className='hover:text-body duration-300' href='/'>
+                HOME
+              </Link>
+              <Link className='hover:text-body duration-300' href='/courses'>
+                COURSES
+              </Link>
+              <Link className='hover:text-body duration-300' href='/faq'>
+                FAQ
+              </Link>
+              <Link className='hover:text-body duration-300' href='/about'>
+                ABOUT
+              </Link>
+              <Link className='hover:text-body duration-300' href='/contact'>
+                CONTACT
+              </Link>
+            </ul>
+            <div className='flex flex-row gap-4 cursor-pointer'>
+              <FaFacebookF size={25} />
+              <AiOutlineTwitter size={25} />
+            </div>
+            <p>+212 694977110</p>
+          </div>
         </div>
-        <p  >+212 694977110</p>
-
-                  </div>
-               
-        
-         </div>
- )}
-
-
-
-
+      </div>
+    </div>
+  </div>
+)}
 
 
 
